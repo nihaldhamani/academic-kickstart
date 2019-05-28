@@ -18,27 +18,45 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Software Engineering Intern"
+  company = "NASA Jet Propulsion Laboratory"
+  company_url = "https://www.jpl.nasa.gov/"
+  location = "Pasadena, CA"
+  date_start = "2019-06-03"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "R&D Researcher"
+  company = "Texas Spacecraft Laboratory"
+  company_url = "https://sites.utexas.edu/tsl/seeker/"
+  location = "Austin, TX"
+  date_start = "2019-1-26"
+  date_end = ""
+
+[[experience]]
+  title = "Software Engineering Associate Part Time"
+  company = "NASA Jet Propulsion Laboratory"
+  company_url = "https://www.jpl.nasa.gov/"
+  location = "Pasadena, CA"
+  date_start = "2018-11-01"
+  date_end = "2019-06-01"
+  
+
+[[experience]]
+  title = "Machine Learning/Computer Vision Lead"
+  company = "Texas Spacecraft Laboratory"
+  company_url = "https://sites.utexas.edu/tsl/seeker/"
+  location = "Austin, TX"
+  date_start = "2019-1-26"
+  date_end = ""
+  description = """
+    - Designed, implemented, and tested machine learning and computer vision
+  algorithms for NASA’s JSC Seeker Mission
+    - Trained a convolutional neural network (CNN) to detect target spacecraft in
+  orbit using Python and TensorFlow
+    - Developed multi-threaded auto-capturing software to process and save
+  spacecraft images using various computer vision techniques to extract orbital
+  information
+  """
 
 +++
