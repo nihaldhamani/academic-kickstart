@@ -40,6 +40,7 @@ date_format = "Jan 2006"
   location = "Pasadena, CA"
   date_start = "2018-11-01"
   date_end = "2019-06-01"
+  description = ""
   
 
 [[experience]]
