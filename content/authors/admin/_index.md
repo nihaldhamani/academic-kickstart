@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Computer Science Student
+role: Software Engineering Intern
 
 # Organizations/Affiliations
 organizations:
 - name: University of Texas at Austin
-  url: "www.google.com"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: I like things
@@ -62,9 +62,9 @@ email: "nihaldhamani@gmail.com"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
 Nihal Dhamani is a person who needs to write this bio.
