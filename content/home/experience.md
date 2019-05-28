@@ -30,7 +30,7 @@ date_format = "Jan 2006"
   company = "Texas Spacecraft Laboratory"
   company_url = "https://sites.utexas.edu/tsl/seeker/"
   location = "Austin, TX"
-  date_start = "2019-1-26"
+  date_start = "2019-01-26"
   date_end = ""
 
 [[experience]]
@@ -47,7 +47,7 @@ date_format = "Jan 2006"
   company = "Texas Spacecraft Laboratory"
   company_url = "https://sites.utexas.edu/tsl/seeker/"
   location = "Austin, TX"
-  date_start = "2019-1-26"
+  date_start = "2019-01-26"
   date_end = ""
   description = """
     - Designed, implemented, and tested machine learning and computer vision
