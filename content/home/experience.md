@@ -17,29 +17,31 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = "Software Engineering Intern"
-  company = "NASA Jet Propulsion Laboratory"
-  company_url = "https://www.jpl.nasa.gov/"
-  location = "Pasadena, CA"
-  date_start = "2019-06-03"
-  date_end = ""
 
 [[experience]]
-  title = "R&D Researcher"
+  title = "Mars 2020 GDS Software Engineer (Part-time)"
+  company = "NASA Jet Propulsion Laboratory"
+  company_url = "https://www.jpl.nasa.gov/"
+  location = "Remote"
+  date_start = "2018-11-01"
+  date_end = ""
+  description = ""
+
+[[experience]]
+  title = "R&D Researcher and Developer"
   company = "Texas Spacecraft Laboratory"
   company_url = "https://sites.utexas.edu/tsl/seeker/"
   location = "Austin, TX"
   date_start = "2019-01-26"
   date_end = ""
 
-[[experience]]
-  title = "Software Engineering Associate Part Time"
+  [[experience]]
+  title = "Mars 2020 GDS Software Engineering Intern"
   company = "NASA Jet Propulsion Laboratory"
   company_url = "https://www.jpl.nasa.gov/"
   location = "Pasadena, CA"
-  date_start = "2018-11-01"
-  date_end = "2019-06-01"
+  date_start = "2018-05-18"
+  date_end = "2018-08-16"
   description = ""
   
 
@@ -48,16 +50,17 @@ date_format = "Jan 2006"
   company = "Texas Spacecraft Laboratory"
   company_url = "https://sites.utexas.edu/tsl/seeker/"
   location = "Austin, TX"
-  date_start = "2019-01-26"
-  date_end = ""
-  description = """
-    - Designed, implemented, and tested machine learning and computer vision
-  algorithms for NASA’s JSC Seeker Mission
-    - Trained a convolutional neural network (CNN) to detect target spacecraft in
-  orbit using Python and TensorFlow
-    - Developed multi-threaded auto-capturing software to process and save
-  spacecraft images using various computer vision techniques to extract orbital
-  information
+  date_start = "2017-09-01"
+  date_end = "2018-05-31"
+  """
+
+  [[experience]]
+  title = "Engineering Intern"
+  company = "METECS"
+  company_url = "http://www.metecs.com/"
+  location = "Houston, TX"
+  date_start = "2017-05-22"
+  date_end = "2017-08-10"
   """
 
 +++
