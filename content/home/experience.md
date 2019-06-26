@@ -59,6 +59,5 @@ date_format = "Jan 2006"
   location = "Houston, TX"
   date_start = "2017-05-22"
   date_end = "2017-08-10"
-  """
 
 +++
