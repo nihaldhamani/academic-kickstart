@@ -35,14 +35,13 @@ date_format = "Jan 2006"
   date_start = "2019-01-26"
   date_end = ""
 
-  [[experience]]
+[[experience]]
   title = "Mars 2020 GDS Software Engineering Intern"
   company = "NASA Jet Propulsion Laboratory"
   company_url = "https://www.jpl.nasa.gov/"
   location = "Pasadena, CA"
   date_start = "2018-05-18"
   date_end = "2018-08-16"
-  description = ""
   
 
 [[experience]]
@@ -52,9 +51,8 @@ date_format = "Jan 2006"
   location = "Austin, TX"
   date_start = "2017-09-01"
   date_end = "2018-05-31"
-  """
 
-  [[experience]]
+[[experience]]
   title = "Engineering Intern"
   company = "METECS"
   company_url = "http://www.metecs.com/"
