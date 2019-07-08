@@ -25,7 +25,6 @@ date_format = "Jan 2006"
   location = "Remote"
   date_start = "2018-11-01"
   date_end = ""
-  description = ""
 
 [[experience]]
   title = "R&D Researcher and Developer"
