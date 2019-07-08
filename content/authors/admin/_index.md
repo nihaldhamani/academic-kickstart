@@ -14,7 +14,7 @@ role: Software Engineering Intern
 
 # Organizations/Affiliations
 organizations:
-- name: University of Texas at Austin
+- name: The University of Texas at Austin
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -23,18 +23,19 @@ bio: I like things
 interests:
 - Machine Learning
 - Computer Vision
-- Space Industry
+- Autonomy
+- Space
 
 education:
   courses:
   - course: BSc in Computer Science
-    institution: University of Texas at Austin
+    institution: The University of Texas at Austin
     year: 2019
   - course: BSA in Astronomy
-    institution: University of Texas at Austin
+    institution: The University of Texas at Austin
     year: 2019
   - course: Minor in Middle Eastern Studies
-    institution: University of Texas at Austin
+    institution: The University of Texas at Austin
     year: 2019
 
 # Social/Academic Networking
@@ -67,4 +68,4 @@ email: "nihaldhamani@gmail.com"
 #- Visitors
 ---
 
-Nihal Dhamani is a person who needs to write this bio.
+I am currently a Computer Science and Astronomy undergraduate at The University of Texas at Austin. 
