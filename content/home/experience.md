@@ -33,6 +33,7 @@ date_format = "Jan 2006"
   location = "Austin, TX"
   date_start = "2019-01-26"
   date_end = ""
+  description = ""
 
 [[experience]]
   title = "Mars 2020 GDS Software Engineering Intern"
