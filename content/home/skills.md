@@ -23,10 +23,36 @@ subtitle = ""
   icon = "java"
   icon_pack = "fab"
   name = "Java"
+
+[[feature]]
+  icon = "gofore"
+  icon_pack = "fab"
+  name = "Go"
   
 [[feature]]
   icon = "glasses"
   icon_pack = "fas"
   name = "Computer Vision"
+
+[[feature]]
+  icon = "aws"
+  icon_pack = "fab"
+  name = "AWS"
+
+[[feature]]
+  icon = "cogs"
+  icon_pack = "fas"
+  name = "Machine Learning"
+
+[[feature]]
+  icon = "docker"
+  icon_pack = "fab"
+  name = "Docker"
+
+[[feature]]
+  icon = "git-square"
+  icon_pack = "fab"
+  name = "Git"
+
 
 +++
