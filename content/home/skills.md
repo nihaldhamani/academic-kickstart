@@ -56,7 +56,7 @@ subtitle = ""
 
 [[feature]]
   icon = "fa-image"
-  icon_pack = "far"
+  icon_pack = "fas"
   name = "Tensorflow"
 
 
