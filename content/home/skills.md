@@ -54,5 +54,10 @@ subtitle = ""
   icon_pack = "fab"
   name = "Git"
 
+[[feature]]
+  icon = "fa-image"
+  icon_pack = "far"
+  name = "Tensorflow"
+
 
 +++
