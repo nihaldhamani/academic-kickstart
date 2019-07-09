@@ -55,7 +55,7 @@ subtitle = ""
   name = "Git"
 
 [[feature]]
-  icon = "fa-image"
+  icon = "image"
   icon_pack = "fas"
   name = "Tensorflow"
 
