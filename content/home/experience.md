@@ -47,7 +47,10 @@ date_format = "Jan 2006"
   location = "Pasadena, CA"
   date_start = "2018-05-18"
   date_end = "2018-08-16"
-  description = "Software Engineering intern for the Mars 2020 CS3 team"
+  description = """I interned with the Common Software Services for the Mars 2020 mission.
+
+  I worked on developing tools to improve efficiency of cloud tools.
+  """
   
 
 [[experience]]
@@ -59,7 +62,7 @@ date_format = "Jan 2006"
   date_end = "2018-05-31"
   description = """I served as the Machine Learning and Computer Vision lead for the Seeker Vision project to develop a low-cost intelligent sensor for NASA JSC's Seeker-1 CubeSat Mission.
 
-  Led efforts in developing, adapting, and testing convolutional neural network (CNN) architectures and computer vision algorithms to work with the space environment. Our sensor detects, localizes, and returns relative bearing estimates for a target spacecraft. Our computer vision system was integrated onto the Seeker-1 CubeSat and launched on Cygnus NG-11 in April 2019. It be deployed from the ISS in July 2019 to carry out its mission.
+  I Led efforts in developing, adapting, and testing convolutional neural network (CNN) architectures and computer vision algorithms to work with the space environment. Our sensor detects, localizes, and returns relative bearing estimates for a target spacecraft. Our computer vision system was integrated onto the Seeker-1 CubeSat and launched on Cygnus NG-11 in April 2019. It be deployed from the ISS in July 2019 to carry out its mission.
 
   """
 
