@@ -45,7 +45,7 @@ summary = "A NASA Johnson Space Center funded mission using open-source machine 
 +++
 
 
-# Seeker Vision Overview
+## Seeker Vision Overview
 I served as the Machine Learning & Computer Vision lead, overseeing 6 student developers and researchers in the Texas Spacecraft Laboratory working on the Seeker Vision project. The goal of the project was to use low-cost COTS hardware and open-source ML tools to enable NASA's Seeker CubeSat to detect, identify, and localize a target spacecraft ([Cygnus](https://en.wikipedia.org/wiki/Cygnus_(spacecraft))) while in orbit. Our team trained Convolutional Neural Networks and wrote Computer Vision algorithms which were then integrated with the flight software. The measurements taken by the system are then used in real-time in the guidance, navigation, and control of the Seeker-1 CubeSat.
 
 Our "intelligent camera" was selected for integration on the flight unit among competing solutions. The Seeker-1 CubeSat will validate and test the vision system for vision-based navigation during its mission in July 2019.
@@ -54,26 +54,23 @@ Our "intelligent camera" was selected for integration on the flight unit among c
 
 <center>{{< figure src="seeker-earth-tracking.gif" title="Tracking Cygnus against a noisy backdrop" >}}</center>
 
-## Seeker CubeSat Mission Overview
+### Seeker CubeSat Mission Overview
 [Seeker](https://roundupreads.jsc.nasa.gov/pages.ashx/991/QA%20Seeker%20and%20NASA%20shall%20find) is a NASA Johnson Space Center mission funded as an International Space Station project to develop an ultra-low cost approach to highly automated extravehicular inspection of crewed or uncrewed spacecraft.
 
 <center>{{< figure src="seeker-kenobi.png" title="Seeker (left) & its 'translator' Kenobi (right). Credit: NASA" >}}</center>
 
 The [Texas Spacecraft Laboratory](https://sites.utexas.edu/tsl/)) (TSL), with UT Aerospace Engineering and Engineering Mechanics professor Dr. Maruthi Akella serving as Principal Investigator, was funded to develop a vision system for the Seeker-1 technology demonstration mission that launched in April 2019. Seeker-1 is a 3U CubeSat that will be deployed from an Orbital ATK Enhanced Cygnus ISS resupply spacecraft following the completion of its resupply mission in July 2019. The Seeker-1 CubeSat will perform a 60-minute mission consisting of proximity operations around the Cygnus spacecraft. 
 
-## Vision System Development Highlights
-### Computer Vision Software Overview
-NASA asked us to deliver a computer vision system capable of detecting Cygnus and
-producing relative azimuth & elevation estimates at 1 Hz. With only a weak computer (and no GPU), this was no trivial task.
 
-And, the space environment presents many difficulties with respect to computer vision:
-
-* Clouds and Earth generate complex noise patterns
-* Lighting is inconsistent and can easily blind the camera
-or illuminate only half an object
-* Low computing power and time constraints can eliminate many solutions viable for Earth-based systems
-
-Additionally, our target spacecraft, Cygnus, is considered "non-cooperative," meaning that has no visual markers or reflectors that make computer vision easier, and does not actively communicate its position during the mission. Interaction with non-cooperative targets in space is difficult but highly desirable.
+### Project Requirements and Challenges
+* Our vision system had to be capable of detecting and calculating relative bearing estimates at 1Hz on an Intel Joule 570x (not that powerful)
+  - Low computing power and time constraints eliminated many solutions viable for Earth-based systems
+* Cygnus was 'non-cooperative'
+  - had no fiducial markers and could not communicate its position during the mission
+* The space environment presented us with additional challenges
+  - Clouds and complex features on the Earth introduced noise
+  - Lighting was varied and very inconsistent
+  - Radiation could disrupt camera sensors producing noisy images
 
 We met our mission need for robustness and performance by training and tuning models built from Google's MobileNet SSD v1 architecture. The lightweight object detector proved resilient and speedy in simulations and extensive hardware-in-the-loop testing.
 
@@ -88,23 +85,6 @@ Using Unreal Engine and Microsoft's AirSim, we were able to script the generatio
 
 For each simulated image, we could immediately generate ground-truth data to use for both training and validation. This helped in past efforts for relative bearing estimation and will aid in future efforts towards full 6-DOF pose estimation.
 
-### Neural Network Results
-After iterative trainings and hyperparameter tuning, we developed a capable object detector.
-
-<center>{{< figure src="results_histogram.png" title="Test set results: Cygnus detection probability in positive and negative images (where a bimodal distribution is good)" >}}</center>
-
-| Metric                           | Validation Set Average | Testing Set Average |
-|----------------------------------|------------------------|---------------------|
-| Detection Rate                   | 0.99                   | 0.965               |
-| True Negative Rate               | 0.953                  | 0.973               |
-| False Positive Rate              | 0.047                  | 0.027               |
-| False Alarm Rate                 | 0.034                  | 0.02                |
-| False Negative Rate              | 0.01                   | 0.035               |
-| Accuracy                         | 0.974                  | 0.969               |
-| Precision                        | 0.966                  | 0.98                |
-| F1                               | 0.978                  | 0.972               |
-| Matthews Correlation Coefficient | 0.948                  | 0.936               |
-| Jaccard Coefficient              | 0.89                   | 0.888               |
 
 <center>{{< figure src="example-cygnus-detection.png" title="An example Cygnus detection" >}}</center>
 
