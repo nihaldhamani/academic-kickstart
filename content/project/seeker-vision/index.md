@@ -76,7 +76,7 @@ The [Texas Spacecraft Laboratory](https://sites.utexas.edu/tsl/), with UT Aerosp
 ### Detection and Localization
 Google's MobileNet SSD v1 architecture provided us with a framework for training and tuning object detection models. The lightweight object detector was extensively tested and proved to be resilient and met our 1Hz requirements during hardware-in-the-loop testing.
 
-<center>{{< figure src="example-cygnus-detection.png" title="An example Cygnus detection" >}}</center>
+<center>{{< figure src="example-cygnus-detection.png" title="An example of Cygnus detection" >}}</center>
 
 ### Synthetic Image Generation
 In order to train a robust model, we needed a dataset of images with varied backgrounds conditions and orientations. As a result, we focused on generting high-fidelity synthetic imagery using Unreal Engine and Microsoft's AirSim.
