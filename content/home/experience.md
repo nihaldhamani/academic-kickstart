@@ -62,7 +62,7 @@ date_format = "Jan 2006"
   date_end = "2018-05-31"
   description = """I served as the Machine Learning and Computer Vision lead for the Seeker Vision project to develop a low-cost intelligent sensor for NASA JSC's Seeker-1 CubeSat Mission.
 
-  I Led efforts in developing, adapting, and testing convolutional neural network (CNN) architectures and computer vision algorithms to work with the space environment. Our sensor detects, localizes, and returns relative bearing estimates for a target spacecraft. Our computer vision system was integrated onto the Seeker-1 CubeSat and launched on Cygnus NG-11 in April 2019. It be deployed from the ISS in July 2019 to carry out its mission.
+  I led efforts in developing, adapting, and testing convolutional neural network (CNN) architectures and computer vision algorithms to work with the space environment. Our sensor detects, localizes, and returns relative bearing estimates for a target spacecraft. Our computer vision system was integrated onto the Seeker-1 CubeSat and launched on Cygnus NG-11 in April 2019. It will be deployed from the ISS in July 2019 to carry out its mission.
 
   """
 
