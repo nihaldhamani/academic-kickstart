@@ -59,7 +59,7 @@ Our "intelligent camera" was selected for integration on the flight unit among c
 
 <center>{{< figure src="seeker-kenobi.png" title="Seeker (left) & its 'translator' Kenobi (right). Credit: NASA JSC" >}}</center>
 
-The [Texas Spacecraft Laboratory](https://sites.utexas.edu/tsl/)) (TSL), with UT Aerospace Engineering and Engineering Mechanics professor Dr. Maruthi Akella serving as Principal Investigator, was funded to develop a vision system for the Seeker-1 technology demonstration mission that launched in April 2019. Seeker-1 is a 3U CubeSat that will be deployed from an Orbital ATK Enhanced Cygnus ISS resupply spacecraft following the completion of its resupply mission in July 2019. The Seeker-1 CubeSat will perform a 60-minute mission consisting of proximity operations around the Cygnus spacecraft. 
+The [Texas Spacecraft Laboratory](https://sites.utexas.edu/tsl/), with UT Aerospace Engineering and Engineering Mechanics professor Dr. Maruthi Akella serving as Principal Investigator, was funded to develop a vision system for the Seeker-1 technology demonstration mission that launched in April 2019. Seeker-1 is a 3U CubeSat that will be deployed from an Orbital ATK Enhanced Cygnus ISS resupply spacecraft following the completion of its resupply mission in July 2019. The Seeker-1 CubeSat will perform a 60-minute mission consisting of proximity operations around the Cygnus spacecraft. 
 
 
 ### Project Requirements and Challenges
@@ -86,12 +86,11 @@ In order to train a robust model, we needed a dataset of images with varied back
 ### Relative Bearing Calculation
 In order to obtain the centroid (needed to calculate the relative bearings) of the Cygnus body, many different contouring algorithms were tested. Ultimately, a classifer was developed to determine the backdrop condition (deep space, noisy Earth, uniform Earth) and the contouring algorithm that was the best for each condition was applied
 
-<center>{{< figure src="seeker-contouring.png" title="An example Cygnus contouring" >}}</center>
+<center>{{< figure src="seeker-contouring.png" title="An example of Cygnus contouring" >}}</center>
 
-## Delivery & Ongoing Work
-In May 2018, the TSL delivered a vision system to JSC capable of computing relative azimuth and elevation at a solution rate of 3-4 Hz. In August 2018, this vision system was selected for flight over competing systems after testing proved it to be the most robust solution available. It was integrated into the final Seeker-1 CubeSat and will be used in the navigation system during the 60-minute mission set to take place in Summer 2019.
+## Ongoing Work
 
-Thanks to the success of the delivered system, JSC has chosen to fund continued research in order to develop a second-generation system capable of computing relative pose as an extension of the current relative bearing capabilities.
+JSC has chosen to fund continued research in order to develop a second-generation system capable of computing relative pose as an extension of the current relative bearing capabilities.
 
 ## Longhorn Research Poster Session
 
