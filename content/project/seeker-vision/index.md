@@ -57,7 +57,7 @@ Our "intelligent camera" was selected for integration on the flight unit among c
 ### Seeker CubeSat Mission Overview
 [Seeker](https://roundupreads.jsc.nasa.gov/pages.ashx/991/QA%20Seeker%20and%20NASA%20shall%20find) is a NASA Johnson Space Center mission funded as an International Space Station project to develop an ultra-low cost approach to highly automated extravehicular inspection of crewed or uncrewed spacecraft.
 
-<center>{{< figure src="seeker-kenobi.png" title="Seeker (left) & its 'translator' Kenobi (right). Credit: NASA" >}}</center>
+<center>{{< figure src="seeker-kenobi.png" title="Seeker (left) & its 'translator' Kenobi (right). Credit: NASA JSC" >}}</center>
 
 The [Texas Spacecraft Laboratory](https://sites.utexas.edu/tsl/)) (TSL), with UT Aerospace Engineering and Engineering Mechanics professor Dr. Maruthi Akella serving as Principal Investigator, was funded to develop a vision system for the Seeker-1 technology demonstration mission that launched in April 2019. Seeker-1 is a 3U CubeSat that will be deployed from an Orbital ATK Enhanced Cygnus ISS resupply spacecraft following the completion of its resupply mission in July 2019. The Seeker-1 CubeSat will perform a 60-minute mission consisting of proximity operations around the Cygnus spacecraft. 
 
@@ -71,22 +71,22 @@ The [Texas Spacecraft Laboratory](https://sites.utexas.edu/tsl/)) (TSL), with UT
   - Clouds and complex features on the Earth introduced noise
   - Lighting was varied and very inconsistent
   - Radiation could disrupt camera sensors producing noisy images
+* Camera system needed to be commandable to change camera parameters in real-time
 
-We met our mission need for robustness and performance by training and tuning models built from Google's MobileNet SSD v1 architecture. The lightweight object detector proved resilient and speedy in simulations and extensive hardware-in-the-loop testing.
-
-### Synthetic Image Generation
-While training data for terrestrial vehicles is relatively easy to gather (though painstaking to label), imagery for training autonomous spacecraft is rather limited. Moreover, we needed images that exhaustively sampled backgrounds conditions and orientations. We immediately identified synthetic imagery as a critical mission need and developed software to create high-fidelity simulated images for training.
-
-Using Unreal Engine and Microsoft's AirSim, we were able to script the generation of thousands of diverse images to bolster our datasets and dramatically improve our training results.
-
-<center>{{< figure src="simulated-cygnus.png" title="A synthetically-generated image of Cygnus (1 / 2)" >}}</center>
-
-<center>{{< figure src="simulated-cygnus-2.png" title="A synthetically-generated image of Cygnus (2 / 2)" >}}</center>
-
-For each simulated image, we could immediately generate ground-truth data to use for both training and validation. This helped in past efforts for relative bearing estimation and will aid in future efforts towards full 6-DOF pose estimation.
-
+### Detection and Localization
+Google's MobileNet SSD v1 architecture provided us with a framework for training and tuning object detection models. The lightweight object detector was extensively tested and proved to be resilient and met our 1Hz requirements during hardware-in-the-loop testing.
 
 <center>{{< figure src="example-cygnus-detection.png" title="An example Cygnus detection" >}}</center>
+
+### Synthetic Image Generation
+In order to train a robust model, we needed a dataset of images with varied backgrounds conditions and orientations. As a result, we focused on generting high-fidelity synthetic imagery using Unreal Engine and Microsoft's AirSim.
+
+<center>{{< figure src="simulated-cygnus-2.png" title="A synthetically-generated image of Cygnus" >}}</center>
+
+### Relative Bearing Calculation
+In order to obtain the centroid (needed to calculate the relative bearings) of the Cygnus body, many different contouring algorithms were tested. Ultimately, a classifer was developed to determine the backdrop condition (deep space, noisy Earth, uniform Earth) and the contouring algorithm that was the best for each condition was applied
+
+<center>{{< figure src="seeker-contouring.png" title="An example Cygnus contouring" >}}</center>
 
 ## Delivery & Ongoing Work
 In May 2018, the TSL delivered a vision system to JSC capable of computing relative azimuth and elevation at a solution rate of 3-4 Hz. In August 2018, this vision system was selected for flight over competing systems after testing proved it to be the most robust solution available. It was integrated into the final Seeker-1 CubeSat and will be used in the navigation system during the 60-minute mission set to take place in Summer 2019.
