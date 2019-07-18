@@ -49,13 +49,13 @@ url_code = "https://github.com/nihaldhamani/CarND-Advanced-Lane-Lines"
 The goal of the project was to write a computer vision pipeline using OpenCV to identify the lane boundaries from a dashcam video. The pipeline was written in Python using the OpenCV Computer Vision library.
 
 The following steps were taken in order to achieve the goals of the project:
-* Compute the camera calibration matrix and distortion coefficients given a set of chessboard images
-* Apply a distortion correction to raw images
-* Use color transforms gradient thresholds to create a thresholded binary image
-* Apply a perspective transform to rectify binary image
-* Detect lane pixels and fit to find the lane boundary
-* Determine the curvature of the lane and vehicle position with respect to center
-* Warp the detected lane boundaries back onto the original image
+    * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images
+    * Apply a distortion correction to raw images
+    * Use color transforms gradient thresholds to create a thresholded binary image
+    * Apply a perspective transform to rectify binary image
+    * Detect lane pixels and fit to find the lane boundary
+    * Determine the curvature of the lane and vehicle position with respect to center
+    * Warp the detected lane boundaries back onto the original image
 
 <center>{{< figure src="lane-finding.gif" title="Example video output from a dashcam video" >}}</center>
 
@@ -71,7 +71,7 @@ Here are some examples from the intermdiate steps:
 
 <center>{{< figure src="binary.png" title="Before and after binary thresholding" >}}</center>
 <center>{{< figure src="masked.png" title="Masked output of binary image" >}}</center>
-<center>{{< figure src="binary.png" title="Birds-eye perspective transform of masked image" >}}</center>
+<center>{{< figure src="warped.png" title="Birds-eye perspective transform of masked image" >}}</center>
 
 
 
