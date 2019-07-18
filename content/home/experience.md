@@ -38,7 +38,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """I serve as the research lead for the Seeker R&D project which aims to achieve on-orbit pose determination using a monocular camera on COTS hardware.
   
-  Our team architected and developed an end-to-end Machine Learning training pipeline capable on running entirely on AWS in hopes of rapidly training and validating numerous models."""
+  Our team architected and developed an end-to-end Machine Learning training pipeline capable of running entirely on AWS in hopes of rapidly training and validating numerous models."""
 
 [[experience]]
   title = "Mars 2020 GDS Software Engineering Intern"

@@ -10,7 +10,9 @@ summary = "Predicting Twitter Emoji Usage with Neural Networks"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Demo"]
+tags = ["machine-learning", "deep-learning", "natural-language-processing"]
+
+url_code = "https://github.com/VinayGValsaraj/emoji-predictor"
 
 # Optional external URL for project (replaces project detail page).
 external_link = "files/emoji-predictor.pdf"

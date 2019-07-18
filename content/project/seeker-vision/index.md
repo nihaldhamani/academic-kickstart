@@ -44,13 +44,22 @@ summary = "A NASA Johnson Space Center funded mission using open-source machine 
   focal_point = "Smart"
 +++
 
+## Quick Overview
+* Seeker is a NASA Johnson Space Center CubeSat Mission hoping to demonstrate capabilities relevant to on-orbit, free-flying inspection of space vehicles.
+* [Texas Spacecraft Laboratory](https://sites.utexas.edu/tsl/seeker/) contracted by JSC to develop a novel visual navigation system for Seeker-1 that provides azimuth and elevation of a target spacecraft using only a monocular camera
+* While serving as the ML/CV lead, our team trained CNN's, wrote computer vision algorithms, and integrated everything into a flight-ready system.
+* Launched on Cygnus NG-11 in April 2019. Mission to be carried out in July 2019.
+* Research was presented at UT Research Week's poster session in April 2019 and won the 1st-place audience favorite award. You can find our poster [here](seeker_utrw_poster.pdf)
 
-## Seeker Vision Overview
+
+<center>{{< figure src="seeker-deep-space-tracking.gif" title="Tracking Cygnus with a uniform backdrop" >}}</center>
+
+
+
+## A More Detailed Overview
 I served as the Machine Learning & Computer Vision lead, overseeing 6 student developers and researchers in the Texas Spacecraft Laboratory working on the Seeker Vision project. The goal of the project was to use low-cost COTS hardware and open-source ML tools to enable NASA's Seeker CubeSat to detect, identify, and localize a target spacecraft ([Cygnus](https://en.wikipedia.org/wiki/Cygnus_(spacecraft))) while in orbit. Our team trained Convolutional Neural Networks and wrote Computer Vision algorithms which were then integrated with the flight software. The measurements taken by the system are then used in real-time in the guidance, navigation, and control of the Seeker-1 CubeSat.
 
 Our "intelligent camera" was selected for integration on the flight unit among competing solutions. The Seeker-1 CubeSat will validate and test the vision system for vision-based navigation during its mission in July 2019.
-
-<center>{{< figure src="seeker-deep-space-tracking.gif" title="Tracking Cygnus with a uniform backdrop" >}}</center>
 
 <center>{{< figure src="seeker-earth-tracking.gif" title="Tracking Cygnus against a noisy backdrop" >}}</center>
 
@@ -90,8 +99,4 @@ In order to obtain the centroid (needed to calculate the relative bearings) of t
 
 ## Ongoing Work
 
-JSC has chosen to fund continued research in order to develop a second-generation system capable of computing relative pose as an extension of the current relative bearing capabilities.
-
-## Longhorn Research Poster Session
-
-We presented our research at UT Research Week's poster session in April 2019 and won the 1st-place audience favorite award. You can find our poster [here](seeker_utrw_poster.pdf).
+The Seeker team at JSC has chosen to fund continued research in order to develop a system capable of computing relative pose using a monocular camera.
