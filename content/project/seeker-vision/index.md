@@ -45,9 +45,10 @@ summary = "A NASA Johnson Space Center funded mission using open-source machine 
 +++
 
 ## Quick Overview
-* Seeker is a NASA JSC CubeSat Mission to demonstrate capabilities relevant to on-orbit, free-flying inspection of space vehicles.
-* Texas Spacecraft Laboratory contracted by JSC to develop a novel visual navigation system for Seeker-1 that provides azimuth and elevation of a target spacecraft using only a monocular camera
-* Serving as ML/CV lead, our team train CNN's, wrote computer vision algorithms, and integrated everything into a flight-ready system.
+* Seeker is a NASA Johnson Space Center CubeSat Mission hoping to demonstrate capabilities relevant to on-orbit, free-flying inspection of space vehicles.
+* [Texas Spacecraft Laboratory](https://sites.utexas.edu/tsl/seeker/) contracted by JSC to develop a novel visual navigation system for Seeker-1 that provides azimuth and elevation of a target spacecraft using only a monocular camera
+* While serving as the ML/CV lead, our team trained CNN's, wrote computer vision algorithms, and integrated everything into a flight-ready system.
+* Launched on Cygnus NG-11 in April 2019. Mission to be carried out in July 2019.
 * Research was presented at UT Research Week's poster session in April 2019 and won the 1st-place audience favorite award. You can find our poster [here](seeker_utrw_poster.pdf)
 
 
