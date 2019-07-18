@@ -48,16 +48,16 @@ url_code = "https://github.com/nihaldhamani/CarND-Advanced-Lane-Lines"
 ## Project Overview
 The goal of the project was to write a computer vision pipeline using OpenCV to identify the lane boundaries from a dashcam video. The pipeline was written in Python using the OpenCV Computer Vision library.
 
-The following steps were taken in order to achieve the goals of the project:
-    * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images
-    * Apply a distortion correction to raw images
-    * Use color transforms gradient thresholds to create a thresholded binary image
-    * Apply a perspective transform to rectify binary image
-    * Detect lane pixels and fit to find the lane boundary
-    * Determine the curvature of the lane and vehicle position with respect to center
-    * Warp the detected lane boundaries back onto the original image
-
 <center>{{< figure src="lane-finding.gif" title="Example video output from a dashcam video" >}}</center>
+
+The following steps were taken in order to achieve the goals of the project:
+- Compute the camera calibration matrix and distortion coefficients given a set of chessboard images
+- Apply a distortion correction to raw images
+- Use color transforms gradient thresholds to create a thresholded binary image
+- Apply a perspective transform to rectify binary image
+- Detect lane pixels and fit to find the lane boundary
+- Determine the curvature of the lane and vehicle position with respect to center
+- Warp the detected lane boundaries back onto the original image
 
 ### Camera Calibration
 I start by preparing "object points", which will be the (x, y, z) coordinates of the chessboard corners in the world. Here I am assuming the chessboard is fixed on the (x, y) plane at z=0, such that the object points are the same for each calibration image. I used these object points and corresponding image points that would exist to calculate the distortion. Luckily OpenCV provides methods such as cv2.calibrateCamera() to make this easier
