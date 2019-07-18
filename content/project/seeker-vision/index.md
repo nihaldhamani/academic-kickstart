@@ -44,8 +44,15 @@ summary = "A NASA Johnson Space Center funded mission using open-source machine 
   focal_point = "Smart"
 +++
 
+## Quick Overview
+* Seeker is a NASA JSC CubeSat Mission to demonstrate capabilities relevant to on-orbit, free-flying inspection of space vehicles.
+* Texas Spacecraft Laboratory contracted by JSC to develop a novel visual navigation system for Seeker-1 that provides azimuth and elevation of a target spacecraft using only a monocular camera
+* Serving as ML/CV lead, our team train CNN's, wrote computer vision algorithms, and integrated everything into a flight-ready system.
+* Research was presented at UT Research Week's poster session in April 2019 and won the 1st-place audience favorite award. You can find our poster [here](seeker_utrw_poster.pdf)
 
-## Seeker Vision Overview
+
+
+## A More Detailed Overview
 I served as the Machine Learning & Computer Vision lead, overseeing 6 student developers and researchers in the Texas Spacecraft Laboratory working on the Seeker Vision project. The goal of the project was to use low-cost COTS hardware and open-source ML tools to enable NASA's Seeker CubeSat to detect, identify, and localize a target spacecraft ([Cygnus](https://en.wikipedia.org/wiki/Cygnus_(spacecraft))) while in orbit. Our team trained Convolutional Neural Networks and wrote Computer Vision algorithms which were then integrated with the flight software. The measurements taken by the system are then used in real-time in the guidance, navigation, and control of the Seeker-1 CubeSat.
 
 Our "intelligent camera" was selected for integration on the flight unit among competing solutions. The Seeker-1 CubeSat will validate and test the vision system for vision-based navigation during its mission in July 2019.
@@ -90,8 +97,4 @@ In order to obtain the centroid (needed to calculate the relative bearings) of t
 
 ## Ongoing Work
 
-JSC has chosen to fund continued research in order to develop a second-generation system capable of computing relative pose as an extension of the current relative bearing capabilities.
-
-## Longhorn Research Poster Session
-
-We presented our research at UT Research Week's poster session in April 2019 and won the 1st-place audience favorite award. You can find our poster [here](seeker_utrw_poster.pdf).
+The Seeker team at JSC has chosen to fund continued research in order to develop a system capable of computing relative pose using a monocular camera.
