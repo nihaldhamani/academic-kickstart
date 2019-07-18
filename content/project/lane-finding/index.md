@@ -35,10 +35,13 @@ url_code = "https://github.com/nihaldhamani/CarND-Advanced-Lane-Lines"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Top"
+  focal_point = "Center"
 +++
 
 <center>{{< figure src="lane-finding.gif" title="Example video output from dashcam videos" >}}</center>
