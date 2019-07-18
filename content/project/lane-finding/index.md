@@ -41,11 +41,13 @@ url_code = "https://github.com/nihaldhamani/CarND-Advanced-Lane-Lines"
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
+  focal_point = "Top"
 +++
 
+<center>{{< figure src="lane-finding.gif" title="Example video output from dashcam videos" >}}</center>
 
 ## Project Overview
 Write stuff
+
 
 
