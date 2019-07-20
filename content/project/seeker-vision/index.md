@@ -10,7 +10,7 @@ summary = "A NASA Johnson Space Center funded mission using open-source machine 
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Deep Learning"]
+tags = ["deep-learning", "computer-vision", "cubesats"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = ""
@@ -24,7 +24,7 @@ summary = "A NASA Johnson Space Center funded mission using open-source machine 
 # slides = ""
 
 # Links (optional).
-# url_pdf = ""
+url_pdf = "seeker_utrw_poster.pdf"
 # url_slides = ""
 # url_video = ""
 # url_code = ""
