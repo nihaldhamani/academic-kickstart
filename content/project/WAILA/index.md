@@ -74,7 +74,7 @@ Clicking *New Memory* allows the user to store this memory. If the user logs in 
 
 Clicking *Past Memories* takes the user to a page where they can go look at their saved memories.
 
-<center>{{< figure src="detected.png" title="Screen after detected object bounding box is clicked" width="50%" height ="50%" >}}</center>
+<center>{{< figure src="detected.png" title="Screen after detected object bounding box is clicked" >}}</center>
 
 
 ### Saved Memories
