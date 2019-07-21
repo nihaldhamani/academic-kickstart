@@ -3,14 +3,14 @@
 title = "Seeker Vision"
 
 # Date this page was created.
-date = 2019-07-16T12:00:00
+date = 2019-07-20T12:00:00
 
 # Project summary to display on homepage.
-summary = "A NASA Johnson Space Center funded mission using open-source machine learning and computer vision tools for autonomous vision-based navigation in space. Final system launched on Cygnus NG-11 in April 2019 with a mission date of July 2019."
+summary = "A NASA Johnson Space Center funded mission using open-source machine learning and computer vision tools for autonomous vision-based navigation in space. Final system launched on Cygnus NG-11 in April 2019 with a mission date of July 2019"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-# tags = ["Deep Learning"]
+tags = ["deep-learning", "computer-vision", "cubesats"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = ""
@@ -24,7 +24,7 @@ summary = "A NASA Johnson Space Center funded mission using open-source machine 
 # slides = ""
 
 # Links (optional).
-# url_pdf = ""
+url_pdf = "files/seeker_utrw_poster.pdf"
 # url_slides = ""
 # url_video = ""
 # url_code = ""
@@ -49,7 +49,7 @@ summary = "A NASA Johnson Space Center funded mission using open-source machine 
 * [Texas Spacecraft Laboratory](https://sites.utexas.edu/tsl/seeker/) contracted by JSC to develop a novel visual navigation system for Seeker-1 that provides azimuth and elevation of a target spacecraft using only a monocular camera
 * While serving as the ML/CV lead, our team trained CNN's, wrote computer vision algorithms, and integrated everything into a flight-ready system.
 * Launched on Cygnus NG-11 in April 2019. Mission to be carried out in July 2019.
-* Research was presented at UT Research Week's poster session in April 2019 and won the 1st-place audience favorite award. You can find our poster [here](seeker_utrw_poster.pdf)
+* Research was presented at UT Research Week's poster session in April 2019 and won the 1st-place audience favorite award. You can find our poster [here](files/seeker_utrw_poster.pdf)
 
 
 <center>{{< figure src="seeker-deep-space-tracking.gif" title="Tracking Cygnus with a uniform backdrop" >}}</center>

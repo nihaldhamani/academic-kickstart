@@ -3,7 +3,7 @@
 title = "Highway Lane Finding"
 
 # Date this page was created.
-date = 2019-07-17T12:00:00
+date = 2019-07-19T12:00:00
 
 # Project summary to display on homepage.
 summary = "A Computer Vision pipeline to identify the highway lane boundaries in a video"
@@ -75,6 +75,10 @@ Here are some examples from the intermdiate steps:
 <center>{{< figure src="binary.png" title="Before and after binary thresholding" >}}</center>
 <center>{{< figure src="masked.png" title="Masked output of binary image" >}}</center>
 <center>{{< figure src="warped.png" title="Birds-eye perspective transform of masked image" >}}</center>
+
+
+### Failuresa nd Future Work
+There are a lot of fluctuations in my pipeline. One thing to note is I tried implementing search based on previous poly fits but that caused the fluctuations to worsen. Additionally, I tried implementing smoothing as well but that showed no significant improvement. Future work involves implementing a solution to search around the already found lane lines as opposed to finding them for each frame. Furthermore, in order to make my pipeline more robust, I could implement better sanity checking that would make the overall output smoother.
 
 
 
