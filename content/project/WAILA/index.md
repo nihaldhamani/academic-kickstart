@@ -3,7 +3,7 @@
 title = "WAILA"
 
 # Date this page was created.
-date = 2019-07-20T12:00:00
+date = 2019-07-16T12:00:00
 
 # Project summary to display on homepage.
 summary = "What Am I Looking At? (WAILA) is a real-time object detector app that predicts objects using Tensorflow and a model trained on the [COCO](http://cocodataset.org/#home) dataset. WAILA provides functionality to learn more about the object and to save it as a memory"
@@ -74,7 +74,7 @@ Clicking *New Memory* allows the user to store this memory. If the user logs in 
 
 Clicking *Past Memories* takes the user to a page where they can go look at their saved memories.
 
-<center>{{< figure src="detected.png" title="Screen after detected object bounding box is clicked" >}}</center>
+<center>{{< figure src="detected.png" title="Screen after detected object bounding box is clicked" > width="50%" height ="50%"}}</center>
 
 
 ### Saved Memories

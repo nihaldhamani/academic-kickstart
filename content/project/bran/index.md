@@ -3,7 +3,7 @@
 title = "Bran EC2 Provisioning"
 
 # Date this page was created.
-date = 2019-07-20T00:00:00
+date = 2019-07-17T00:00:00
 
 # Project summary to display on homepage.
 summary = "Bran is used as a CLI to automatically create and ssh into an ec2 instance given user input settings. Bran automatically sets up requirements and installs the [ravenML](https://github.com/autognc/ravenML) machine learning CLI"

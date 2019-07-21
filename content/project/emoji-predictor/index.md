@@ -3,7 +3,7 @@
 title = "Twitter Emoji Predictor"
 
 # Date this page was created.
-date = 2019-07-16T00:00:00
+date = 2019-07-18T00:00:00
 
 # Project summary to display on homepage.
 summary = "Predicting Twitter Emoji Usage with Neural Networks"

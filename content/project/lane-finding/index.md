@@ -3,7 +3,7 @@
 title = "Highway Lane Finding"
 
 # Date this page was created.
-date = 2019-07-17T12:00:00
+date = 2019-07-19T12:00:00
 
 # Project summary to display on homepage.
 summary = "A Computer Vision pipeline to identify the highway lane boundaries in a video"
