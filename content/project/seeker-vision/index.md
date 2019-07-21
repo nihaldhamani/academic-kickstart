@@ -6,7 +6,7 @@ title = "Seeker Vision"
 date = 2019-07-16T12:00:00
 
 # Project summary to display on homepage.
-summary = "A NASA Johnson Space Center funded mission using open-source machine learning and computer vision tools for autonomous vision-based navigation in space. Final system launched on Cygnus NG-11 in April 2019 with a mission date of July 2019."
+summary = "A NASA Johnson Space Center funded mission using open-source machine learning and computer vision tools for autonomous vision-based navigation in space. Final system launched on Cygnus NG-11 in April 2019 with a mission date of July 2019"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
