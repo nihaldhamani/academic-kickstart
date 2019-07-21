@@ -50,6 +50,7 @@ The goal of the project was to create a functioning android app that was integra
 
 The app performs the following functions:
 
+
   * Detects object from a video feed.
   * Draws bounding boxes on the object that can be clicked by the user.
   * Uses Wikipedia API to obtain more information about the object.
