@@ -46,19 +46,25 @@ tags = ["android", "object-detection"]
 
 
 ## Android App Overview and Examples
-The goal of the project was to create a functioning android app that was integrated with the Tensorflow API. The app performs the following functions: 
-* Detects object from a video feed.
-* Draws bounding boxes on the object that can be clicked by the user.
-* Uses Wikipedia API to obtain more information about the object.
-* Saves detected object as a *memory* along with it's location.
-* Displays all memories that are stored on the cloud database.
+The goal of the project was to create a functioning android app that was integrated with the Tensorflow API. 
+
+The app performs the following functions:
+
+  * Detects object from a video feed.
+  * Draws bounding boxes on the object that can be clicked by the user.
+  * Uses Wikipedia API to obtain more information about the object.
+  * Saves detected object as a *memory* along with it's location.
+  * Displays all memories that are stored on the cloud database.
 
 
 ### Authentication
-Authentication is controlled through the Firebase Authentication service. The authentication fragment supports the following cases:
-* User login for existing account.
-* Anonymous user login.
-* Create new user account.
+Authentication is controlled through the Firebase Authentication service. 
+
+The authentication fragment supports the following cases:
+
+  * User login for existing account.
+  * Anonymous user login.
+  * Create new user account.
 
 <center>{{< figure src="auth.png" title="Screenshot of authentication fragment" >}}</center>
 
