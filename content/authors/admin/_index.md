@@ -69,6 +69,4 @@ email: "nihaldhamani@gmail.com"
 #- Visitors
 ---
 
-Hi, my name is Nihal. I am a software engineer with a passion for autonomy and space exploration. I love tackling tough problems with innovative ideas, some of which you can see down below.
-
-I am currently an undergraduate student at The University of Texas at Austin where I'm majoring in both Computer Science and Astronomy. 
+My name is Nihal. I am a software engineer with a passion for autonomy and space exploration. I love tackling tough problems with innovative ideas (some of which you can see down below). Currently, I am an undergraduate student at The University of Texas at Austin where I'm majoring in both Computer Science and Astronomy. 
