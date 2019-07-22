@@ -50,7 +50,7 @@ url_pdf = "files/seeker_utrw_poster.pdf"
 * While serving as the ML/CV lead, our team trained CNN's, wrote computer vision algorithms, and integrated everything into a flight-ready system.
 * Launched on Cygnus NG-11 in April 2019. Mission to be carried out in July 2019.
 * Research was presented at UT Research Week's poster session in April 2019 and won the 1st-place audience favorite award. You can find our poster [here](files/seeker_utrw_poster.pdf)
-
+* Extended abstract submitted to the [SciTech 2020](https://www.aiaa.org/SciTech) and awaiting acceptance decision.
 
 <center>{{< figure src="seeker-deep-space-tracking.gif" title="Tracking Cygnus with a uniform backdrop" >}}</center>
 
