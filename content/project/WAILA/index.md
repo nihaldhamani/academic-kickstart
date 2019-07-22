@@ -6,7 +6,7 @@ title = "WAILA"
 date = 2019-07-16T12:00:00
 
 # Project summary to display on homepage.
-summary = "What Am I Looking At? (WAILA) is a real-time object detector app that predicts objects using Tensorflow and a model trained on the [COCO](http://cocodataset.org/#home) dataset. WAILA provides functionality to learn more about the object and to save it as a memory"
+summary = "What Am I Looking At? (WAILA) is a real-time object detector Android app that predicts objects using Tensorflow and a model trained on the [COCO](http://cocodataset.org/#home) dataset. WAILA provides functionality to learn more about the object and to save it as a memory"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
