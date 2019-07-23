@@ -97,11 +97,13 @@ In order to obtain the centroid (needed to calculate the relative bearings) of t
 
 <center>{{< figure src="seeker-contouring.png" title="An example of Cygnus contouring" >}}</center>
 
-## Ongoing Work and Acknowledgements
+## Ongoing Work
 
 The Seeker team at JSC has chosen to fund continued research in order to develop a system capable of computing relative pose using a monocular camera.
 
-Check out the websites of my research partners and their versions of the Seeker-Vision Project:
+## Acknowledgements
+
+Check out the websites of my research partners and their versions of the Seeker Vision project:
 
   * [Gavin Martin](https://www.gavincmartin.com/project/seeker-vision/)
   * [Carson Schubert](https://carsonschubert.com/seeker/)
